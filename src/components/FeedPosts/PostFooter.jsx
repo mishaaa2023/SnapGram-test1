@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import { CommentLogo, NotificationsLogo, UnlikeLogo } from '../../assets/constants'
 
-const PostFooter = ({username}) => {
+const PostFooter = ({username,isProfilePage}) => {
 const [liked, setliked] = useState(false)
 const [likes, setlikes] = useState(1000)
 const handlelike =()=>{
@@ -36,7 +36,9 @@ return(
 
 
     
-    <Text fontWeight={700} fontSize={'sm'}>
+    {!isProfilePage && (
+      <>
+      <Text fontWeight={700} fontSize={'sm'}>
      {username}{" "}
      <Text as={'span'} fontWeight={400}>
      is Feeling Good
@@ -46,6 +48,8 @@ return(
 View all 1,000 comments
     </Text>
 
+      </>
+    )}
     <Flex
     alignItems={'center'}
     gap={2}

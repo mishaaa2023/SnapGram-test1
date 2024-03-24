@@ -30,6 +30,10 @@ const FeedPosts = () => {
                 <>
                 <FeedPost img="/img1.png" username="Zeenia" avatar="/img1.png" />
             <FeedPost img="/img2.png" username="Eman" avatar="/img2.png" />
+            <FeedPost img="/img5.webp" username="Aiza" avatar="/img5.webp" />
+            <FeedPost img="/img4.png" username="Hamna" avatar="/img4.png" />
+            <FeedPost img="/img1.png" username="Zeenia" avatar="/img1.png" />
+            <FeedPost img="/img2.png" username="Eman" avatar="/img2.png" />
             <FeedPost img="/img3.png" username="Aiza" avatar="/img3.png" />
             <FeedPost img="/img4.png" username="Hamna" avatar="/img4.png" />
 

@@ -28,9 +28,9 @@ const Sidebar = () => {
 
 								},
 								{
-												icon: <Avatar size={'sm'} name='Burak Orkmez' src='/profilepic.png' />,
+												icon: <Avatar size={'sm'} name='Burak Orkmez' src='/download (1).png' />,
 												text: "Profile",
-												link: "/",
+												link: "/:username",
 								},
 
 				]
